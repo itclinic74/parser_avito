@@ -17,7 +17,7 @@ HEADERS = {
     'user-agent': UserAgent().chrome
 }
 # Создаём свой краулер, в опциях вводим пароль
-crawler = TorCrawler(ctrl_pass='kolovorot')
+crawler = TorCrawler(ctrl_pass='Пароль')
 
 
 def get_html(url, headers):
